@@ -4,15 +4,15 @@
 # @time: 2019-09-25 15:36
 # import pymysql
 #
-# conn = pymysql.connect(host="10.250.43.173", port=3306,\
-#                 user='budget', password='tRpYioWMp9kugdLk', db='budget_history', charset='utf8')
+# conn = pymysql.connect(host="0.0.0.0", port=3306,\
+#                 user='user', password='password', db='db', charset='utf8')
 # cur = conn.cursor()
 # cur.execute("show databases")
 # x = cur.fetchall()
 # print(x)
 import pandas as pd
 import pymysql
-# conn = pymysql.connect(host='10.240.116.22',port=3306,user='root',password='sz@Data9',db='fin_test',charset='utf8')
+# conn = pymysql.connect(host='10.240.116.22',port=3306,user='user',password='password',db='db',charset='utf8')
 # cursor = conn.cursor()
 # sql = "insert into test(user,age) values(%s,%s) "
 # user = 'jiang'
