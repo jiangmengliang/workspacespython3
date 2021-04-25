@@ -5,7 +5,7 @@
 
 import pandas as pd
 from sqlalchemy import create_engine
-yconnect = create_engine('mysql+pymysql://root:sz@Data9@10.240.116.22:3306/fin_test?charset=utf8')
+yconnect = create_engine('mysql+pymysql://user:password@0.0.0.0:3306/database?charset=utf8')
 array_list = [['a',1,2,3,4],[4,5,6,7]]
 df = pd.DataFrame(array_list)
 a = tuple(array_list[0])
